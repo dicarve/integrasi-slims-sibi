@@ -1,0 +1,16 @@
+{
+    "name": "slims/integrasi-slims-sibi",
+    "description": "Integrasi metadata SIBI ke dalam SLiMS",
+    "type": "slims-plugin",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10",
+        "guzzlehttp/promises": "^2.4"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ari Dicarve Nugraha",
+            "email": "dicarve@gmail.com"
+        }
+    ]
+}
