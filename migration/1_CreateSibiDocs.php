@@ -83,6 +83,11 @@ class CreateSibiDocs extends \SLiMS\Migration\Migration
         Schema::table('biblio', function (Blueprint $table) {
             $table->number('sibi_doc_id')->add();
             $table->unique('sibi_doc_id')->add();
+            $table->string('image', 255)->nullable()->change();
+        });
+
+        Schema::table('search_biblio', function (Blueprint $table) {
+            $table->string('image', 255)->nullable()->change();
         });
     }
 
